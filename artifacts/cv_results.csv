@@ -1,0 +1,4 @@
+model,mean_pearson,std_pearson,mean_rmse
+Ridge,0.8569,0.0217,0.6384
+Ridge+LightGBM,0.8564,0.0202,0.6421
+LightGBM,0.8277,0.0213,0.6954

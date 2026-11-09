@@ -1,0 +1,17 @@
+# Tool settings only. Dependencies live in requirements.txt.
+[project]
+name = "spoken-grammar-scoring"
+version = "1.0.0"
+description = "Predict 0-5 spoken grammar scores from audio with Whisper, wav2vec2 and Ridge regression"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]

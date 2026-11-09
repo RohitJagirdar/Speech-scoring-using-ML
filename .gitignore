@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / ambient
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary & checkpoint files
+*.log
+.system_generated/
+scratch/
+
+.pytest_cache/
+.ruff_cache/
+
+# Dataset: 1.6 GB and not ours to redistribute. See README for where it goes.
+Dataset_Final/
+
+# Pipeline outputs: large, regenerable, or contain transcribed speech.
+# Only the small result tables are committed.
+artifacts/*
+!artifacts/cv_results.csv
+!artifacts/feature_importance.csv
+!artifacts/submission.csv
+
+# Personal interview prep, kept out of the public repo
+INTERVIEW_GUIDE.md
